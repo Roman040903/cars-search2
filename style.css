@@ -1,0 +1,38 @@
+ul{
+  list-style: none;
+  padding: 0;
+}
+.cars{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.car {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  
+}
+ img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+}
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+p {
+  margin-bottom: 10px;
+}
+.price h5 {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+.selection {
+  background-color: yellow;
+  font-weight: bold;
+  box-shadow: 0 0 0 1px black;
+}
